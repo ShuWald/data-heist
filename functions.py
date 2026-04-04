@@ -15,3 +15,7 @@ data_files = ['Datasets/ConsumerData.csv', 'Datasets/FONEData.csv', 'Datasets/US
 ConsumerData, FONEData, USAddressData, ZipData = [pd.read_csv(file) for file in data_files]
 #print(ConsumerData.shape[0], FONEData.shape[0], USAddressData.shape[0], ZipData.shape[0])
 
+useful_tweets = pd.read_csv('Datasets/tweets_formatted.csv')
+details = useful_tweets.columns
+
+
