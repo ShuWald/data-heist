@@ -1,5 +1,16 @@
 import pandas as pd
 import numpy as np
+import os
+
+class FileData:
+    def __init__(self, filename, folderpath='Datasets/'):
+        self.filename = filename
+        self.folderpath = folderpath
+        self.filepath = os.path.join(folderpath, filename)
+    
+    @property
+    def dataframe(self):
+        return pd.read_csv(self.filepath)
 
 def textToArray(file):
     with open(file, 'r', encoding='utf-8') as file:
@@ -11,11 +22,11 @@ def textToArray(file):
 tweets = textToArray('Datasets/tweets.txt')
 emojis = textToArray('Datasets/emoji.txt')
 
-data_files = ['Datasets/ConsumerData.csv', 'Datasets/FONEData.csv', 'Datasets/USAddressData.csv', 'Datasets/ZipData.csv']
-ConsumerData, FONEData, USAddressData, ZipData = [pd.read_csv(file) for file in data_files]
+ConsumerData = FileData('ConsumerData.csv')
+FONEData = FileData('FONEData.csv')
+USAddressData = FileData('USAddressData.csv')
+ZipData = FileData('ZipData.csv')
+MigrationData = FileData('OC2025_ZIPMigration.csv')
+
 #print(ConsumerData.shape[0], FONEData.shape[0], USAddressData.shape[0], ZipData.shape[0])
-
-useful_tweets = pd.read_csv('Datasets/tweets_formatted.csv')
-details = useful_tweets.columns
-
 

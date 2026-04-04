@@ -1,0 +1,9 @@
+Column Name                           Type             Column Definition
+ZipCode                               varchar(5)       Five-digit zip code used by the United States Postal Service
+State				      varchar(2)       State of the area of the zip code
+FIPS		 	              varchar(5)       Five-digit United States FIPS county code: State (2) + County Code (3)
+PctLeave			      decimal(4,2)     Percent of Individuals moving into the ZIP based on the tracked Melissa data migration 
+PctMoveIn                             decimal(4,2)     Percent of Individuals moving out of the ZIP based on the tracked Melissa data migration
+ZipCode_Latitude                      decimal(11,6)     Latitude Coordinates at the ZIP code level
+ZipCode_Longitude                     decimal(11,6)     Longitude Coordinates at the ZIP code level
+Last updated date: 2026/02/26 12:00:00
