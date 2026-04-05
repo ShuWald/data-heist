@@ -18,6 +18,7 @@ Impact: Using a student's GPA, social interests, and educational goals as predic
 These categories and respective predictors allow the model to distinguish between neighborhoods:
 
 Predictors Included
+
 Socio Demographics- Marital status, Single parent, Number of children, Grandchildren, Household size, Veteran status.
 
 Financial Profile- Net worth, Home ownership vs. Renting, Credit card usage, Foreign investments, Number of vehicles.
