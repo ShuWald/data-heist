@@ -1,0 +1,27 @@
+Metric,Value
+Latitude R² (3-Output) Mean,0.09903848554067382
+Latitude R² (3-Output) Std,0.0035485996844240287
+Latitude R² (3-Output) Min,0.09131018275381309
+Latitude R² (3-Output) Max,0.10336742871289761
+Latitude R² (2-Output) Mean,0.06925863795084496
+Latitude R² (2-Output) Std,0.003567644547866089
+Latitude R² (2-Output) Min,0.06372576112293415
+Latitude R² (2-Output) Max,0.07591097587925177
+Longitude R² (3-Output) Mean,0.1384434760786631
+Longitude R² (3-Output) Std,0.001529955664411386
+Longitude R² (3-Output) Min,0.13616653631016928
+Longitude R² (3-Output) Max,0.1411867288826576
+Longitude R² (2-Output) Mean,0.11765596328720677
+Longitude R² (2-Output) Std,0.0029089366372536244
+Longitude R² (2-Output) Min,0.11357064023870556
+Longitude R² (2-Output) Max,0.12164779903434864
+Average R² (3-Output) Mean,0.11874098080966847
+Average R² (3-Output) Std,0.001747771073178016
+Average R² (2-Output) Mean,0.09345730061902587
+Average R² (2-Output) Std,0.002710381797562824
+Latitude Improvement Mean (+),0.029779847589828858
+Latitude Improvement %,43.31485570189939
+Longitude Improvement Mean (+),0.020787512791456363
+Longitude Improvement %,17.721896189105202
+Average Improvement Mean (+),0.02528368019064261
+Average Improvement %,27.150895143791313

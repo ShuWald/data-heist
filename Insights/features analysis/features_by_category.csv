@@ -1,0 +1,31 @@
+Rank,Feature_Name,Category,Importance_Score,Importance_Percentage,Cumulative_Percentage
+1,HomeImprovementDIY,Home & Housing,0.051399959574879,5.14,5.14
+2,AutoWork,Automotive,0.05028051102868254,5.03,10.17
+3,Photography,Arts & Entertainment,0.04898408730347917,4.9,15.07
+4,HuntingShooting,Outdoor & Sports,0.04829662399800162,4.83,19.9
+5,CatOwner,Other,0.04579299347553129,4.58,24.48
+6,EducationOnline,Education,0.044443640232009564,4.44,28.92
+7,MovieCollector,Arts & Entertainment,0.0441056918036333,4.41,33.33
+8,CampingHiking,Outdoor & Sports,0.04401855137780938,4.4,37.73
+9,MaritalStatus,Personal & Family,0.04394112738469122,4.39,42.12
+10,SelfImprovement,Other,0.04054660574846733,4.05,46.17
+11,Gardening,Other,0.038352914400610345,3.84,50.01
+12,Fishing,Outdoor & Sports,0.0379907822031761,3.8,53.81
+13,EnvironmentalIssues,Other,0.036544922920251965,3.65,57.46
+14,HomeImprovement,Home & Housing,0.03565185758238098,3.57,61.03
+15,Health,Health & Wellness,0.03489626292109115,3.49,64.52
+16,Political,Other,0.034438422613949415,3.44,67.96
+17,Religious,Other,0.03142696940051728,3.14,71.1
+18,OutdoorsGrouping,Outdoor & Sports,0.031035783598703254,3.1,74.2
+19,Veteran,Other,0.03093929846204289,3.09,77.29
+20,MusicCollector,Arts & Entertainment,0.027505519011165998,2.75,80.04
+21,SingleParent,Other,0.027196284730427612,2.72,82.76
+22,GrandChildren,Other,0.02694111894547482,2.69,85.45
+23,Charitable,Other,0.026534913104691252,2.65,88.1
+24,BeautyCosmetics,Other,0.024319890634959547,2.43,90.53
+25,DogOwner,Other,0.024042564444799977,2.4,92.93
+26,InvestmentsForeign,Other,0.023438671712503207,2.34,95.27
+27,TVCable,Other,0.015119186359950422,1.51,96.78
+28,WirelessCellularPhoneOwner,Other,0.011717131835578246,1.17,97.95
+29,OwnerRenter,Other,0.010242912870793121,1.02,98.97
+30,CreditCardUser,Automotive,0.009854800319747888,0.99,99.96

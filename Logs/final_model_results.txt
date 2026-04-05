@@ -9,36 +9,36 @@ model_summary:
     test_samples: 2000
 metrics_by_output:
   Latitude:
-      R2: 0.090426
-      MAE: 0.015899
-      RMSE: 0.020567
-      MAPE: 0.047283
+      R2: 0.094102
+      MAE: 0.015748
+      RMSE: 0.020513
+      MAPE: 0.046836
   Longitude:
-      R2: 0.119355
-      MAE: 0.012375
-      RMSE: 0.014626
-      MAPE: 0.010523
+      R2: 0.129969
+      MAE: 0.012411
+      RMSE: 0.014690
+      MAPE: 0.010554
   Address:
-      R2: 0.080355
-      MAE: 122.687036
-      RMSE: 152.014879
-      MAPE: 353.467967
+      R2: 0.055071
+      MAE: 124.936834
+      RMSE: 154.030196
+      MAPE: 318.289687
 geographic_error:
-    mean_spatial_euclidean: 0.021421
-    std_spatial_euclidean: 0.013344
-    max_spatial_euclidean: 0.072367
+    mean_spatial_euclidean: 0.021346
+    std_spatial_euclidean: 0.013452
+    max_spatial_euclidean: 0.069051
 address_error:
-    mean_absolute_error: 122.687036
-    std_absolute_error: 89.757533
-    max_absolute_error: 494.856788
+    mean_absolute_error: 124.936834
+    std_absolute_error: 90.089339
+    max_absolute_error: 437.512262
 top_10_features:
-    HomeImprovementDIY: 0.052014
-    AutoWork: 0.050407
-    Photography: 0.048884
-    HuntingShooting: 0.048435
-    MovieCollector: 0.048239
-    CatOwner: 0.045548
-    Health: 0.042821
-    EducationOnline: 0.042652
-    HomeImprovement: 0.042467
-    CampingHiking: 0.040887
+    AutoWork: 0.054384
+    HuntingShooting: 0.049365
+    HomeImprovementDIY: 0.049288
+    HomeImprovement: 0.045516
+    CatOwner: 0.043623
+    EducationOnline: 0.043096
+    Photography: 0.042888
+    CampingHiking: 0.042739
+    MaritalStatus: 0.041668
+    SelfImprovement: 0.040127

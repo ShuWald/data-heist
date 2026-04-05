@@ -1,0 +1,8 @@
+Model,Model_Base,Model_Type,Scaler,R2,MAE,MSE,RMSE,MAPE,Lat_Mean_Error,Lat_Max_Error,Long_Mean_Error,Long_Max_Error,Combined_Euclidean_Error
+random_forest_with_scaler,random_forest,random_forest,Yes,0.04937,0.014472,0.018456,,0.029708,0.01639,0.069903,0.012555,0.044369,0.020646
+random_forest_no_scaler,random_forest,random_forest,No,0.03349,0.014372,0.018581,,0.029525,0.016296,0.066839,0.012449,0.042404,0.020507
+ridge_with_scaler,ridge,ridge,Yes,0.01878,0.015647,0.018742,,0.031889,0.017502,0.059852,0.013792,0.040461,0.022283
+linear_with_scaler,linear,linear,Yes,0.018777,0.015647,0.018742,,0.031889,0.017502,0.059854,0.013792,0.040463,0.022283
+ridge_no_scaler,ridge,ridge,No,0.01057,0.01546,0.018792,,0.031489,0.017274,0.056927,0.013646,0.034597,0.022014
+linear_no_scaler,linear,linear,No,0.01055,0.01546,0.018793,,0.031489,0.017274,0.056932,0.013646,0.034609,0.022014
+neural_network_no_scaler,neural_network,PyTorch Neural Network,No,-1402.584839,0.422175,0.605118,,0.61246,0.23879514634609222,0.8774909973144531,0.6055541634559631,3.050445556640625,0.650937
