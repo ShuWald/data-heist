@@ -21,7 +21,6 @@ X_train_np = X_train.values if hasattr(X_train, 'values') else np.asarray(X_trai
 y_train_np = y_train.values if hasattr(y_train, 'values') else np.asarray(y_train)
 X_test_np = X_test.values if hasattr(X_test, 'values') else np.asarray(X_test)
 y_test_np = y_test.values if hasattr(y_test, 'values') else np.asarray(y_test)
-
 X_train_np = X_train_np.astype(np.float32)
 y_train_np = y_train_np.astype(np.float32)
 X_test_np = X_test_np.astype(np.float32)
@@ -29,7 +28,6 @@ y_test_np = y_test_np.astype(np.float32)
 
 nn_trainer.fit(X_train_np, y_train_np, X_test_np, y_test_np, epochs=100, batch_size=8)
 
-# Test neural network
 nn_predictions = nn_trainer.predict(X_test_np)
 nn_metrics = calculate_metrics(y_test_np, nn_predictions, model_name='Neural Network')
 
