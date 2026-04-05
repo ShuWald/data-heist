@@ -1,17 +1,15 @@
-from testing.preprocessingold import X_train, y_train, X_test, y_test
-from testing.regressionmodel import RegressionModel
-from testing.nnmodel import NNTrainer
+from .preprocessingold import X_train, y_train, X_test, y_test
+from .regressionmodel import RegressionModel
+from .nnmodel import NNTrainer
 from functions import calculate_metrics, write_log
-from testing.dataanalysis import error_analysis, feature_importance_analysis
+from .dataanalysis import error_analysis, feature_importance_analysis
 import numpy as np
 import torch
 import os
 
-# Ensure Logs directory exists
 if not os.path.exists('Logs'):
     os.makedirs('Logs')
 
-# Check for GPU
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using device: {device}")
 
@@ -29,8 +27,7 @@ y_train_np = y_train_np.astype(np.float32)
 X_test_np = X_test_np.astype(np.float32)
 y_test_np = y_test_np.astype(np.float32)
 
-# Train neural network using preprocessing split directly
-nn_trainer.fit(X_train_np, y_train_np, X_test_np, y_test_np, epochs=100, batch_size=32)
+nn_trainer.fit(X_train_np, y_train_np, X_test_np, y_test_np, epochs=100, batch_size=8)
 
 # Test neural network
 nn_predictions = nn_trainer.predict(X_test_np)

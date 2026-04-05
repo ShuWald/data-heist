@@ -3,44 +3,44 @@ neural_network:
     architecture: 30 → 128 → 64 → 2
     device: cpu
   metrics:
-      MAE: 0.422175
-      MSE: 0.366168
-      RMSE: 0.605118
-      R2: -1402.584839
-      MAPE: 0.612460
+      MAE: 0.659006
+      MSE: 0.751503
+      RMSE: 0.866893
+      R2: -2940.046143
+      MAPE: 0.920661
 nn_errors:
   ERROR_ANALYSIS:
     latitude:
-        mean_error: 0.23879514634609222
-        std_error: 0.1561727076768875
-        max_error: 0.8774909973144531
+        mean_error: 0.3394382894039154
+        std_error: 0.12104091793298721
+        max_error: 0.7676467895507812
     longitude:
-        mean_error: 0.6055541634559631
-        std_error: 0.5331289172172546
-        max_error: 3.050445556640625
-      combined_euclidean: 0.650937
+        mean_error: 0.9785754680633545
+        std_error: 0.6446139812469482
+        max_error: 3.0720138549804688
+      combined_euclidean: 1.035774
 random_forest:
     model_type: sklearn Random Forest
     use_scaler: False
   metrics:
-      MAE: 0.014170
-      MSE: 0.000330
-      RMSE: 0.018166
-      R2: 0.092403
-      MAPE: 0.029112
+      MAE: 0.014280
+      MSE: 0.000334
+      RMSE: 0.018270
+      R2: 0.063183
+      MAPE: 0.029422
 rf_errors:
   ERROR_ANALYSIS:
     latitude:
-        mean_error: 0.016069
-        std_error: 0.013434
-        max_error: 0.068504
+        mean_error: 0.016274
+        std_error: 0.013421
+        max_error: 0.064781
     longitude:
-        mean_error: 0.012272
-        std_error: 0.008409
-        max_error: 0.042917
-      combined_euclidean: 0.020219
+        mean_error: 0.012286
+        std_error: 0.008465
+        max_error: 0.040554
+      combined_euclidean: 0.020391
 comparison:
     winner: Random Forest
-    best_r2: 0.092403
-    r2_difference: 1402.677242
+    best_r2: 0.063183
+    r2_difference: 2940.109326
     recommendation: Use Random Forest for best performance

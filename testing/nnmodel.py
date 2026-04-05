@@ -9,13 +9,13 @@ class GeoPredictor(nn.Module):
     def __init__(self, input_size):
         super(GeoPredictor, self).__init__()
         self.network = nn.Sequential(
-            nn.Linear(input_size, 96),
+            nn.Linear(input_size, 80),
             nn.ReLU(),
             nn.Dropout(0.1),  
-            nn.Linear(96, 48),
+            nn.Linear(80, 40),
             nn.ReLU(),
             nn.Dropout(0.1),
-            nn.Linear(48, 2) 
+            nn.Linear(40, 2) 
         )
     
     def forward(self, x):
@@ -27,7 +27,6 @@ class NNTrainer:
     def __init__(self, input_size, learning_rate=0.001, device='cpu'):
         self.device = device
         self.model = GeoPredictor(input_size).to(device)
-        # L2 regularization via weight_decay
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=learning_rate, weight_decay=1e-5)
         self.loss_fn = nn.MSELoss()
         self.train_losses = []
